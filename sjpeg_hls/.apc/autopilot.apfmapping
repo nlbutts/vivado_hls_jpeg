@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fdct_simple.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\fdct_simple.cc"/>
+  </source>
+  <testbench>
+    <originFiles name="bit_writer.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\bit_writer.cc"/>
+    <originFiles name="bit_writer.h" path="C:\projects\jpeg_hw\sjpeg_hls\src\bit_writer.h"/>
+    <originFiles name="colors_rgb.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\colors_rgb.cc"/>
+    <originFiles name="dichotomy.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\dichotomy.cc"/>
+    <originFiles name="enc.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\enc.cc"/>
+    <originFiles name="fdct.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\fdct.cc"/>
+    <originFiles name="headers.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\headers.cc"/>
+    <originFiles name="jpeg_tools.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\jpeg_tools.cc"/>
+    <originFiles name="score_7.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\score_7.cc"/>
+    <originFiles name="sjpeg.cc" path="C:\projects\jpeg_hw\sjpeg_hls\examples\sjpeg.cc"/>
+    <originFiles name="sjpeg.h" path="C:\projects\jpeg_hw\sjpeg_hls\src\sjpeg.h"/>
+    <originFiles name="sjpegi.h" path="C:\projects\jpeg_hw\sjpeg_hls\src\sjpegi.h"/>
+    <originFiles name="utils.cc" path="C:\projects\jpeg_hw\sjpeg_hls\examples\utils.cc"/>
+    <originFiles name="utils.h" path="C:\projects\jpeg_hw\sjpeg_hls\examples\utils.h"/>
+    <originFiles name="yuv_convert.cc" path="C:\projects\jpeg_hw\sjpeg_hls\src\yuv_convert.cc"/>
+    <originFiles name="src" path="C:\projects\jpeg_hw\sjpeg_hls\src"/>
+    <originFiles name="examples" path="C:\projects\jpeg_hw\sjpeg_hls\examples"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

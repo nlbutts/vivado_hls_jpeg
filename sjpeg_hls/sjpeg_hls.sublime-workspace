@@ -1,0 +1,1070 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PI",
+				"M_PI"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/fdct_simple.cc",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/sjpeg.cc",
+			"settings":
+			{
+				"buffer_size": 12590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 73 files for \"SjpegFdctC_simple\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pp.0.c:\n  412  }\n  413  \n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pp.0.c.ap-cdt.c:\n  412  }\n  413  #pragma empty_line\n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  #pragma empty_line\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pp.0.c.ap-line.c:\n  412  }\n  413  #pragma empty_line\n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  #pragma empty_line\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pragma.0.c:\n  412  }\n  413  \n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pragma.1.c:\n  412  }\n  413  \n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution1\\.autopilot\\db\\fdct_simple.pragma.2.c:\n  544  }\n  545  \n  546: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  547  {\n  548  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pp.0.c:\n  412  }\n  413  \n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pp.0.c.ap-cdt.c:\n  415  }\n  416  #pragma empty_line\n  417: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  418  {\n  419  #pragma empty_line\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pp.0.c.ap-line.c:\n  412  }\n  413  #pragma empty_line\n  414: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  415  {\n  416  #pragma empty_line\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pragma.0.c:\n  415  }\n  416  \n  417: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  418  {\n  419  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pragma.1.c:\n  415  }\n  416  \n  417: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  418  {\n  419  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\solution2\\.autopilot\\db\\fdct_simple.pragma.2.c:\n  547  }\n  548  \n  549: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  550  {\n  551  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n   58  ////////////////////////////////////////////////////////////////////////////////\n   59  extern \"C\" {\n   60: void SjpegFdctC_simple(int16_t* coeffs, int num_blocks);\n   61  }\n   62  \n   ..\n 1233          // Replace the function pointer with the simple C implementation\n 1234          //fDCT_(in, mcu_blocks_);\n 1235:         SjpegFdctC_simple(in, mcu_blocks_);\n 1236        }\n 1237        for (int c = 0; c < nb_comps_; ++c) {\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\fdct_simple.c:\n  234  }\n  235  \n  236: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  237  {\n  238  \tprintf(\"num_blocks: %d\", num_blocks);\n\n15 matches across 14 files\n\n\nSearching 13 files for \"SjpegFdctC_simple\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n   58  ////////////////////////////////////////////////////////////////////////////////\n   59  extern \"C\" {\n   60: void SjpegFdctC_simple(int16_t* coeffs, int num_blocks);\n   61  }\n   62  \n   ..\n 1233          // Replace the function pointer with the simple C implementation\n 1234          //fDCT_(in, mcu_blocks_);\n 1235:         SjpegFdctC_simple(in, mcu_blocks_);\n 1236        }\n 1237        for (int c = 0; c < nb_comps_; ++c) {\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\fdct_simple.c:\n  234  }\n  235  \n  236: void SjpegFdctC_simple(int16_t * coeffs, int num_blocks)\n  237  {\n  238  \tprintf(\"num_blocks: %d\", num_blocks);\n\n3 matches across 2 files\n\n\nSearching 13 files for \"GetSamples\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n 1179          in = in_blocks_;\n 1180        }\n 1181:       GetSamples(mb_x, mb_y, yclip | (mb_x == mb_x_max), in);\n 1182        fDCT_(in, mcu_blocks_);\n 1183        for (int c = 0; c < nb_comps_; ++c) {\n ....\n 1202      const bool yclip = (mb_y == mb_y_max);\n 1203      for (int mb_x = 0; mb_x < mb_w_; ++mb_x) {\n 1204:       GetSamples(mb_x, mb_y, yclip | (mb_x == mb_x_max), in);\n 1205        fDCT_(in, mcu_blocks_);\n 1206        in += 64 * mcu_blocks_;\n ....\n 1228        if (!have_coeffs_) {\n 1229          in = in_blocks_;\n 1230:         GetSamples(mb_x, mb_y, yclip | (mb_x == mb_x_max), in);\n 1231          // Replace the function pointer with the simple C implementation\n 1232          //fDCT_(in, mcu_blocks_);\n ....\n 1525        if (!have_coeffs_) {\n 1526          in = in_blocks_;\n 1527:         GetSamples(mb_x, mb_y, yclip | (mb_x == mb_x_max), in);\n 1528          fDCT_(in, mcu_blocks_);\n 1529        }\n ....\n 1749      block_dims_[2] = 0x11;\n 1750    }\n 1751:   virtual void GetSamples(int mb_x, int mb_y, bool clipped,\n 1752                            int16_t* out_blocks) {\n 1753      const uint8_t* data = rgb_ + (3 * mb_x + mb_y * step_) * 16;\n ....\n 1794      block_dims_[2] = 0x11;\n 1795    }\n 1796:   virtual void GetSamples(int mb_x, int mb_y, bool clipped, int16_t* out) {\n 1797      const uint8_t* data = rgb_ + (3 * mb_x + mb_y * step_) * 8;\n 1798      int step = step_;\n ....\n 1826    }\n 1827    virtual ~EncoderSharp420() { Free(yuv_memory_); }\n 1828:   virtual void GetSamples(int mb_x, int mb_y, bool clipped, int16_t* out);\n 1829  \n 1830   protected:\n ....\n 1862  };\n 1863  \n 1864: void EncoderSharp420::GetSamples(int mb_x, int mb_y,\n 1865                                   bool clipped, int16_t* out) {\n 1866    GetLumaSamples(mb_x, mb_y, clipped, out);\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  204    // return MCU samples at macroblock position (mb_x, mb_y)\n  205    // clipped is true if the MCU is clipped and needs replication\n  206:   virtual void GetSamples(int mb_x, int mb_y, bool clipped,\n  207                            int16_t* out_blocks) = 0;\n  208  \n\n9 matches across 2 files\n\n\nSearching 13 files for \"get_yuv_block_\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n 1758        step = 3 * 16;\n 1759      }\n 1760:     get_yuv_block_(data, step, out_blocks);\n 1761      if (clipped) {\n 1762        AverageExtraLuma(W_ - mb_x * 16, H_ - mb_y * 16, out_blocks);\n ....\n 1802        step = 3 * 8;\n 1803      }\n 1804:     get_yuv_block_(data, step, out);\n 1805    }\n 1806  };\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  321    uint8_t replicated_buffer_[3 * 16 * 16];   // tmp buffer for replication\n  322  \n  323:   sjpeg::RGBToYUVBlockFunc get_yuv_block_;\n  324    static sjpeg::RGBToYUVBlockFunc get_yuv444_block_;\n  325    void SetYUVFormat(bool use_444) {\n  326:     get_yuv_block_ = sjpeg::GetBlockFunc(use_444);\n  327    }\n  328    bool adaptive_bias_;   // if true, use per-block perceptual bias modulation\n\n4 matches across 2 files\n\n\nSearching 13 files for \"get_yuv_block_\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n 1758        step = 3 * 16;\n 1759      }\n 1760:     get_yuv_block_(data, step, out_blocks);\n 1761      if (clipped) {\n 1762        AverageExtraLuma(W_ - mb_x * 16, H_ - mb_y * 16, out_blocks);\n ....\n 1802        step = 3 * 8;\n 1803      }\n 1804:     get_yuv_block_(data, step, out);\n 1805    }\n 1806  };\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  321    uint8_t replicated_buffer_[3 * 16 * 16];   // tmp buffer for replication\n  322  \n  323:   sjpeg::RGBToYUVBlockFunc get_yuv_block_;\n  324    static sjpeg::RGBToYUVBlockFunc get_yuv444_block_;\n  325    void SetYUVFormat(bool use_444) {\n  326:     get_yuv_block_ = sjpeg::GetBlockFunc(use_444);\n  327    }\n  328    bool adaptive_bias_;   // if true, use per-block perceptual bias modulation\n\n4 matches across 2 files\n\n\nSearching 13 files for \"quant_idx_\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\dichotomy.cc:\n   93        for (int i = 0; i < nb_blocks_[c]; ++i) {\n   94          RunLevel* const run_levels = all_run_levels_ + nb_run_levels_;\n   95:         const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n   96                                        coeffs, run_levels);\n   97          coeffs->dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n   ..\n  229      const DCTCoeffs& c = coeffs[n];\n  230      const int idx = c.idx_;\n  231:     const int q_idx = quant_idx_[idx];\n  232  \n  233      // DC\n  ...\n  280    for (size_t n = 0; n < nb_mbs; ++n) {\n  281      for (int c = 0; c < nb_comps_; ++c) {\n  282:       const Quantizer* const Q = &quants_[quant_idx_[c]];\n  283        for (int i = 0; i < nb_blocks_[c]; ++i) {\n  284          error += quantize_error_(in, Q);\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  870                          const RunLevel* const rl) {\n  871    const int idx = coeffs->idx_;\n  872:   const int q_idx = quant_idx_[idx];\n  873  \n  874    // DC coefficient symbol\n  ...\n 1022    const double r_limit = kCorrelationThreshold;\n 1023    for (int c = (nb_comps_ > 1 ? 1 : 0); c >= 0; --c) {\n 1024:     const int idx = quant_idx_[c];\n 1025      const Histo* const histo = &histos_[idx];\n 1026      // For chrominance, it can be visually damageable to be too\n ....\n 1183        for (int c = 0; c < nb_comps_; ++c) {\n 1184          const int num_blocks = nb_blocks_[c];\n 1185:         store_histo_(in, &histos_[quant_idx_[c]], num_blocks);\n 1186          in += 64 * num_blocks;\n 1187        }\n ....\n 1236          DCTCoeffs base_coeffs;\n 1237          for (int i = 0; i < nb_blocks_[c]; ++i) {\n 1238:           const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n 1239                                          &base_coeffs, base_run_levels);\n 1240            base_coeffs.dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n ....\n 1273    // be greater than 32bits, either.\n 1274    const int idx = coeffs->idx_;\n 1275:   const int q_idx = quant_idx_[idx];\n 1276    for (int i = 0; i < coeffs->nb_coeffs_; ++i) {\n 1277      const int run = run_levels[i].run_;\n ....\n 1534                reuse_run_levels_ ? all_run_levels_ + nb_run_levels_\n 1535                                  : base_run_levels;\n 1536:           const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n 1537                                          coeffs, run_levels);\n 1538            coeffs->dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n ....\n 1734      nb_comps_ = 3;\n 1735  \n 1736:     quant_idx_[0] = 0;\n 1737:     quant_idx_[1] = 1;\n 1738:     quant_idx_[2] = 1;\n 1739  \n 1740      nb_blocks_[0] = 4;\n ....\n 1779      nb_comps_ = 3;\n 1780  \n 1781:     quant_idx_[0] = 0;\n 1782:     quant_idx_[1] = 1;\n 1783:     quant_idx_[2] = 1;\n 1784  \n 1785      nb_blocks_[0] = 1;\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\headers.cc:\n  156      bw_.PutByte(c + 1);\n  157      bw_.PutByte(block_dims_[c]);\n  158:     bw_.PutByte(quant_idx_[c]);\n  159    }\n  160  }\n  ...\n  194    for (int c = 0; c < nb_comps_; ++c) {\n  195      bw_.PutByte(c + 1);\n  196:     bw_.PutByte(quant_idx_[c] * 0x11);\n  197    }\n  198    bw_.PutByte(0x00);        // Ss\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  298    enum { MAX_COMP = 3 };\n  299    int nb_comps_;\n  300:   int quant_idx_[MAX_COMP];       // indices for quantization matrices\n  301    int nb_blocks_[MAX_COMP];       // number of 8x8 blocks per components\n  302    uint8_t block_dims_[MAX_COMP];  // component dimensions (8-pixels units)\n\n18 matches across 4 files\n\n\nSearching 13 files for \"quants_\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\dichotomy.cc:\n   93        for (int i = 0; i < nb_blocks_[c]; ++i) {\n   94          RunLevel* const run_levels = all_run_levels_ + nb_run_levels_;\n   95:         const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n   96                                        coeffs, run_levels);\n   97          coeffs->dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n   ..\n  128      // set new matrices to evaluate\n  129      for (int c = 0; c < 2; ++c) {\n  130:       search_hook_->NextMatrix(c, quants_[c].quant_);\n  131:       FinalizeQuantMatrix(&quants_[c], q_bias_);\n  132      }\n  133      if (use_adaptive_quant_) {\n  ...\n  156        // save the matrices for later, if they are better\n  157        for (int c = 0; c < 2; ++c) {\n  158:         CopyQuantMatrix(quants_[c].quant_, opt_quants[c]);\n  159        }\n  160        best = fabs(result - search_hook_->target);\n  ...\n  166    // transfer back the final matrices\n  167    SetQuantMatrices(opt_quants);\n  168:   for (int c = 0; c < 2; ++c) FinalizeQuantMatrix(&quants_[c], q_bias_);\n  169  \n  170    // return informative values to the user\n  ...\n  280    for (size_t n = 0; n < nb_mbs; ++n) {\n  281      for (int c = 0; c < nb_comps_; ++c) {\n  282:       const Quantizer* const Q = &quants_[quant_idx_[c]];\n  283        for (int i = 0; i < nb_blocks_[c]; ++i) {\n  284          error += quantize_error_(in, Q);\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  176  void Encoder::SetQuality(float q) {\n  177    q = GetQFactor(q);\n  178:   SetQuantMatrix(kDefaultMatrices[0], q, quants_[0].quant_);\n  179:   SetQuantMatrix(kDefaultMatrices[1], q, quants_[1].quant_);\n  180  }\n  181  \n  182  void Encoder::SetQuantMatrices(const uint8_t m[2][64]) {\n  183:   SetQuantMatrix(m[0], 100, quants_[0].quant_);\n  184:   SetQuantMatrix(m[1], 100, quants_[1].quant_);\n  185  }\n  186  \n  187  void Encoder::SetMinQuantMatrices(const uint8_t m[2][64], int tolerance) {\n  188:   SetMinQuantMatrix(m[0], quants_[0].min_quant_, tolerance);\n  189:   SetMinQuantMatrix(m[1], quants_[1].min_quant_, tolerance);\n  190  }\n  191  \n  192  void Encoder::SetDefaultMinQuantMatrices() {\n  193:   SetDefaultMinQuantMatrix(quants_[0].min_quant_);\n  194:   SetDefaultMinQuantMatrix(quants_[1].min_quant_);\n  195  }\n  196  \n  ...\n  352  \n  353  void Encoder::SetCostCodes(int idx) {\n  354:   quants_[idx].codes_ = ac_codes_[idx];\n  355  }\n  356  \n  ...\n 1044          continue;\n 1045        }\n 1046:       const int dq0 = quants_[idx].quant_[pos];\n 1047:       const int min_dq0 = quants_[idx].min_quant_[pos];\n 1048        // We should be using the exact bias:\n 1049:       //    const int bias = quants_[idx].bias_[pos] << (FP_BITS - AC_BITS);\n 1050        // but this value is too precise considering the other approximations\n 1051        // we're using (namely: HSHIFT). So we better use the a mid value of 0.5\n ....\n 1160          }\n 1161        }\n 1162:       quants_[idx].quant_[pos] += best_dq;\n 1163:       assert(quants_[idx].quant_[pos] >= 1);\n 1164      }\n 1165:     FinalizeQuantMatrix(&quants_[idx], q_bias_);\n 1166      SetCostCodes(idx);\n 1167    }\n ....\n 1236          DCTCoeffs base_coeffs;\n 1237          for (int i = 0; i < nb_blocks_[c]; ++i) {\n 1238:           const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n 1239                                          &base_coeffs, base_run_levels);\n 1240            base_coeffs.dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n ....\n 1534                reuse_run_levels_ ? all_run_levels_ + nb_run_levels_\n 1535                                  : base_run_levels;\n 1536:           const int dc = quantize_block(in, c, &quants_[quant_idx_[c]],\n 1537                                          coeffs, run_levels);\n 1538            coeffs->dc_code_ = GenerateDCDiffCode(dc, &DCs_[c]);\n ....\n 1570    if (!ok_) return false;\n 1571  \n 1572:   FinalizeQuantMatrix(&quants_[0], q_bias_);\n 1573:   FinalizeQuantMatrix(&quants_[1], q_bias_);\n 1574    SetCostCodes(0);\n 1575    SetCostCodes(1);\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\headers.cc:\n  130    for (int n = 0; n <= 1; ++n) {\n  131      bw_.PutByte(n);\n  132:     const uint8_t* quant = quants_[n].quant_;\n  133      for (int i = 0; i < 64; ++i) {\n  134        bw_.PutByte(quant[kZigzag[i]]);\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  353  \n  354    int q_bias_;           // [0..255]: rounding bias for quant. of AC coeffs.\n  355:   Quantizer quants_[2];  // quant matrices\n  356    int DCs_[3];           // DC predictors\n  357  \n\n27 matches across 4 files\n\n\nSearching 13 files for \"quantize_block_\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\dichotomy.cc:\n   82  \n   83    const QuantizeBlockFunc quantize_block = use_trellis_ ? TrellisQuantizeBlock\n   84:                                                         : quantize_block_;\n   85    if (use_trellis_) InitCodes(true);\n   86  \n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  249  \n  250  Encoder::QuantizeErrorFunc Encoder::quantize_error_ = NULL;\n  251: Encoder::QuantizeBlockFunc Encoder::quantize_block_ = NULL;\n  252  void (*Encoder::fDCT_)(int16_t* in, int num_blocks) = NULL;\n  253  Encoder::StoreHistoFunc Encoder::store_histo_ = NULL;\n  ...\n  257    if (fDCT_ == NULL) {\n  258      store_histo_ = GetStoreHistoFunc();\n  259:     quantize_block_ = GetQuantizeBlockFunc();\n  260      quantize_error_ = GetQuantizeErrorFunc();\n  261      fDCT_ = SjpegGetFdct();\n  ...\n 1221    const int mb_y_max = H_ / block_h_;\n 1222    const QuantizeBlockFunc quantize_block = use_trellis_ ? TrellisQuantizeBlock\n 1223:                                                         : quantize_block_;\n 1224    for (int mb_y = 0; mb_y < mb_h_; ++mb_y) {\n 1225      const bool yclip = (mb_y == mb_y_max);\n ....\n 1509    RunLevel base_run_levels[64];\n 1510    const QuantizeBlockFunc quantize_block = use_trellis_ ? TrellisQuantizeBlock\n 1511:                                                         : quantize_block_;\n 1512  \n 1513    // We use the default Huffman tables as basis for bit-rate evaluation\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  265                                     const Quantizer* const Q,\n  266                                     DCTCoeffs* const out, RunLevel* const rl);\n  267:   static QuantizeBlockFunc quantize_block_;\n  268    static QuantizeBlockFunc GetQuantizeBlockFunc();\n  269  \n\n6 matches across 3 files\n\n\nSearching 13 files for \"GetQuantizeBlockFunc\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  257    if (fDCT_ == NULL) {\n  258      store_histo_ = GetStoreHistoFunc();\n  259:     quantize_block_ = GetQuantizeBlockFunc();\n  260      quantize_error_ = GetQuantizeErrorFunc();\n  261      fDCT_ = SjpegGetFdct();\n  ...\n  751  }\n  752  \n  753: Encoder::QuantizeBlockFunc Encoder::GetQuantizeBlockFunc() {\n  754  #if defined(SJPEG_USE_SSE2)\n  755    if (SupportsSSE2()) return QuantizeBlockSSE2;\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  266                                     DCTCoeffs* const out, RunLevel* const rl);\n  267    static QuantizeBlockFunc quantize_block_;\n  268:   static QuantizeBlockFunc GetQuantizeBlockFunc();\n  269  \n  270    static int TrellisQuantizeBlock(const int16_t in[64], int idx,\n\n3 matches across 2 files\n\n\nSearching 13 files for \"QuantizeBlock\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  586  #endif    // SJPEG_USE_NEON\n  587  \n  588: static int QuantizeBlock(const int16_t in[64], int idx,\n  589                           const Quantizer* const Q,\n  590                           DCTCoeffs* const out, RunLevel* const rl) {\n  ...\n  757    if (SupportsNEON()) return QuantizeBlockNEON;\n  758  #endif\n  759:   return QuantizeBlock;  // default\n  760  }\n  761  \n\n2 matches in 1 file\n\n\nSearching 13 files for \"QUANTIZE\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  322  #define MAKE_INV_QUANT(Q) (((1u << FP_BITS) + (Q) / 2) / (Q))\n  323  #define DIV_BY_MULT(A, M) (((A) * (M)) >> FP_BITS)\n  324: #define QUANTIZE(A, M, B) (DIV_BY_MULT((A) + (B), (M)) >> AC_BITS)\n  325  \n  326  void Encoder::FinalizeQuantMatrix(Quantizer* const q, int q_bias) {\n  ...\n  346      q->iquant_[i] = iquant;\n  347      q->qthresh_[i] = qthresh;\n  348:     assert(QUANTIZE(qthresh, iquant, ibias) > 0);\n  349:     assert(QUANTIZE(qthresh - 1, iquant, ibias) == 0);\n  350    }\n  351  }\n  ...\n  514      const __m128i D = _mm_adds_epi16(C, m_bias);              // v' = v + bias\n  515      const __m128i E = _mm_mulhi_epu16(D, m_mult);             // (v' * iq) >> 16\n  516:     const __m128i F = _mm_srli_epi16(E, AC_BITS);             // = QUANTIZE(...)\n  517      const __m128i G = _mm_xor_si128(F, B);                    // v ^ mask\n  518      STORE_16(F, tmp + i);\n  ...\n  602      v = (v ^ mask) - mask;\n  603      if (v >= qthresh[j]) {\n  604:       v = QUANTIZE(v, iquant[j], bias[j]);\n  605        assert(v > 0);\n  606        const int n = CalcLog2(v);\n  ...\n  612      }\n  613    }\n  614:   const int dc = (in[0] < 0) ? -QUANTIZE(-in[0], iquant[0], bias[0])\n  615:                              : QUANTIZE(in[0], iquant[0], bias[0]);\n  616    out->idx_ = idx;\n  617    out->last_ = prev - 1;\n  ...\n  700      V = (V ^ mask) - mask;\n  701      disto0[i] = V * V + disto0[i - 1];\n  702:     int v = QUANTIZE(V, iquant[j], bias[j]);\n  703      if (v == 0) continue;\n  704      int nbits = CalcLog2(v);\n  ...\n  746      nz = nz->best_prev;\n  747    }\n  748:   const int dc = (in[0] < 0) ? -QUANTIZE(-in[0], iquant[0], bias[0])\n  749:                              : QUANTIZE(in[0], iquant[0], bias[0]);\n  750    return dc;\n  751  }\n  ...\n  842    for (int j = 0; j < 64; ++j) {\n  843      int32_t v0 = (in[j] < 0) ? -in[j] : in[j];\n  844:     const uint32_t v = quant[j] * QUANTIZE(v0, iquant[j], bias[j]);\n  845      v0 >>= AC_BITS;\n  846      err += (v0 - v) * (v0 - v);\n\n11 matches in 1 file\n\n\nSearching 13 files for \"CalcLog2\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n  456  // Quantize coefficients and pseudo-code coefficients\n  457  \n  458: static int CalcLog2(int v) {\n  459  #if defined(__GNUC__) && \\\n  460      ((__GNUC__ == 3 && __GNUC_MINOR__ >= 4) || __GNUC__ >= 4)\n  ...\n  478    int suff, n;\n  479    if (diff < 0) {\n  480:     n = CalcLog2(-diff);\n  481      suff = (diff - 1) & ((1 << n) - 1);\n  482    } else {\n  483:     n = CalcLog2(diff);\n  484      suff = diff;\n  485    }\n  ...\n  523      const int v = tmp[j];\n  524      if (v > 0) {\n  525:       const int n = CalcLog2(v);\n  526        const uint16_t code = masked[j] & ((1 << n) - 1);\n  527        rl[nb].level_ = (code << 4) | n;\n  ...\n  570      const int v = tmp[j];\n  571      if (v > 0) {\n  572:       const int n = CalcLog2(v);\n  573        const uint16_t code = masked[j] & ((1 << n) - 1);\n  574        rl[nb].level_ = (code << 4) | n;\n  ...\n  604        v = QUANTIZE(v, iquant[j], bias[j]);\n  605        assert(v > 0);\n  606:       const int n = CalcLog2(v);\n  607        const uint16_t code = (v ^ mask) & ((1 << n) - 1);\n  608        rl[nb].level_ = (code << 4) | n;\n  ...\n  702      int v = QUANTIZE(V, iquant[j], bias[j]);\n  703      if (v == 0) continue;\n  704:     int nbits = CalcLog2(v);\n  705      for (int k = 0; k < NUM_TRELLIS_NODES; ++k) {\n  706        const int err = V - v * q;\n  ...\n 1089                // => We can restrict the loop on 'dq' using 'last'.\n 1090                if (qv) {\n 1091:                 const int bits = CalcLog2(qv);\n 1092                  const int dqv = qv * dq;\n 1093                  const int error = (v - dqv) * (v - dqv);\n\n8 matches in 1 file\n\n\nSearching 13 files for \"SinglePassScan\" (case sensitive, whole word)\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\enc.cc:\n 1213  // 1-pass Scan\n 1214  \n 1215: void Encoder::SinglePassScan() {\n 1216    ResetDCs();\n 1217  \n ....\n 1555  \n 1556    if (!reuse_run_levels_) {\n 1557:     SinglePassScan();   // redo everything, but with optimal tables now.\n 1558    } else {\n 1559      // Re-use the saved run/levels for fast 2nd-pass.\n ....\n 1615        WriteDHT();\n 1616        WriteSOS();\n 1617:       SinglePassScan();\n 1618      }\n 1619    }\n\nC:\\projects\\jpeg_hw\\sjpeg_hls\\src\\sjpegi.h:\n  245    void StoreOptimalHuffmanTables(size_t nb_mbs, const DCTCoeffs* coeffs);\n  246  \n  247:   void SinglePassScan();           // finalizing scan\n  248    void SinglePassScanOptimized();  // optimize the Huffman table + finalize scan\n  249  \n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 23942,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/sjpegi.h",
+			"settings":
+			{
+				"buffer_size": 15925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/enc.cc",
+			"settings":
+			{
+				"buffer_size": 74609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct_test/dct1d_02.c",
+			"settings":
+			{
+				"buffer_size": 2478,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct_test/dct1d_01.c",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct.txt",
+			"settings":
+			{
+				"buffer_size": 32313,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/jpeg_hw/sjpeg_hls",
+		"/C/projects/jpeg_hw/sjpeg_hls/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Nick Butts/Google Drive/code/dct_test/dct_test2/DCT1.cpp",
+		"/C/projects/jpeg_hw/sjpeg_hls/src/fdct_simple.cc",
+		"/C/Users/Nick Butts/STM32Cube/Repository/STM32Cube_FW_L0_V1.3.0/Drivers/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_q31.c",
+		"/C/projects/jpeg_hw/sjpeg_hls/src/yuv_convert.cc",
+		"/C/projects/jpeg_hw/sjpeg_hls/src/fdct_simple.c",
+		"/C/projects/ray/Python/playdata.py",
+		"/C/projects/CIC_Filter/c/testCIC.cpp",
+		"/C/projects/ray/Python/p.bat",
+		"/C/projects/ray/test_data/2017_10_17/test8/out_short.csv",
+		"/C/projects/ray/test_data/2017_10_17/test6/readme.txt",
+		"/C/projects/ray/test_data/2017_10_17/test5/readme.txt",
+		"/C/projects/ray/test_data/2017_10_17/test4/readme.txt",
+		"/C/projects/ray/test_data/2017_10_17/test3/readme.txt",
+		"/C/projects/ray/test_data/2017_10_17/test2/readme.txt",
+		"/C/projects/ray/test_data/2017_10_17/test1/readme.txt",
+		"/C/Users/nbutts/Downloads/cy8c6xxxbzixxx.ibs",
+		"/D/ztemp/test2.csv",
+		"/C/projects/KicadLib/General - Copy.lib",
+		"/C/projects/KicadLib/General.lib",
+		"/D/ztemp/test1.csv",
+		"/C/Users/nbutts/Downloads/cy8c6xxxbziblxxx.ibs",
+		"/C/Users/nbutts/Downloads/cy8c6xxxfmibldxx.ibs",
+		"/C/projects/KicadLib/General.bak",
+		"/C/projects/KicadLib/General.dcm",
+		"/C/projects/CIC_Filter/pdm/pdm_test.cydsn/Generated_Source/PSoC5/pdm_1_defs.h",
+		"/C/projects/CIC_Filter/udb_test/cic_test.cydsn/cic_v1_0/API/cic.c",
+		"/C/projects/CIC_Filter/udb_test/cic_test.cydsn/cic_v1_0/API/cic.h",
+		"/C/projects/CIC_Filter/udb_test/cic_test.cydsn/Generated_Source/PSoC5/cic_1_defs.h",
+		"/C/Users/nbutts/Downloads/CAD_LIBRARY_FOR_PSOC_6_MCU_FAMILY/CY8C6XXXXX/PSOC6X/PADS/Schematic_Symbol/PSOC6X.pt9",
+		"/C/projects/ray/Python/a",
+		"/C/projects/ray/Python/p",
+		"/C/projects/ray/Python/c",
+		"/C/projects/ray/PSoCDesign/RadarReceiver.cydsn/src/AnalogCapture.c",
+		"/C/projects/ray/PSoCDesign/RadarReceiver.cydsn/src/UsbComm.c",
+		"/C/projects/ray/PSoCDesign/Python/testComm.py",
+		"/C/Users/nbutts/Downloads/metric_tune_config_passing.patch",
+		"/C/projects/ray/PSoCDesign/Python/test.csv",
+		"/C/projects/ray/PSoCDesign/sar_test.cydsn/main.c",
+		"/C/ztemp/monteCarloSchedule/mcSchedule.py",
+		"/Y/ray/RaspberryPi/Python/libraSerial/PSOC.py",
+		"/C/Users/nbutts/Downloads/PAR_NMEA.py",
+		"/Y/ray/RaspberryPi/Python/application/go.sh",
+		"/Y/ray/RaspberryPi/Python/application/get_gps_set_time.py",
+		"/C/Users/nbutts/Downloads/PAR_NMEA (2).py",
+		"/Y/ray/RaspberryPi/Python/application/ray_rp3.py",
+		"/Y/ray/RaspberryPi/Python/application/ray_rp3.sh",
+		"/C/ztemp/invensense_mic_issue_meeting_08_15_2017",
+		"/Y/ray/RaspberryPi/Python/camera.py",
+		"/C/projects/Ray/RaspberryPi/Python/application/ray_rp3.sh"
+	],
+	"find":
+	{
+		"height": 80.0
+	},
+	"find_in_files":
+	{
+		"height": 208.0,
+		"where_history":
+		[
+			"*.c, *.cc, *.h,C:\\projects\\jpeg_hw\\sjpeg_hls\\src",
+			"*.c, *.cc, *.h",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"SinglePassScan",
+			"quality",
+			"CalcLog2",
+			"QUANTIZE",
+			"QuantizeBlock",
+			"GetQuantizeBlockFunc",
+			"quantize_block_",
+			"quants_",
+			"quant_idx_",
+			"DCT8a",
+			"m1",
+			"get_yuv_block_",
+			"GetSamples",
+			"SjpegFdctC_simple"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/fdct_simple.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "examples/sjpeg.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9525,
+								9525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6978.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23942,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										176,
+										193
+									],
+									[
+										376,
+										393
+									],
+									[
+										595,
+										612
+									],
+									[
+										790,
+										807
+									],
+									[
+										967,
+										984
+									],
+									[
+										1144,
+										1161
+									],
+									[
+										1317,
+										1334
+									],
+									[
+										1517,
+										1534
+									],
+									[
+										1736,
+										1753
+									],
+									[
+										1931,
+										1948
+									],
+									[
+										2108,
+										2125
+									],
+									[
+										2285,
+										2302
+									],
+									[
+										2517,
+										2534
+									],
+									[
+										2728,
+										2745
+									],
+									[
+										2909,
+										2926
+									],
+									[
+										3281,
+										3298
+									],
+									[
+										3492,
+										3509
+									],
+									[
+										3673,
+										3690
+									],
+									[
+										3976,
+										3986
+									],
+									[
+										4243,
+										4253
+									],
+									[
+										4460,
+										4470
+									],
+									[
+										4724,
+										4734
+									],
+									[
+										4907,
+										4917
+									],
+									[
+										5153,
+										5163
+									],
+									[
+										5412,
+										5422
+									],
+									[
+										5552,
+										5562
+									],
+									[
+										5910,
+										5920
+									],
+									[
+										6214,
+										6228
+									],
+									[
+										6412,
+										6426
+									],
+									[
+										6635,
+										6649
+									],
+									[
+										6765,
+										6779
+									],
+									[
+										7100,
+										7114
+									],
+									[
+										7298,
+										7312
+									],
+									[
+										7521,
+										7535
+									],
+									[
+										7651,
+										7665
+									],
+									[
+										8130,
+										8140
+									],
+									[
+										8393,
+										8403
+									],
+									[
+										8586,
+										8596
+									],
+									[
+										8873,
+										8883
+									],
+									[
+										9082,
+										9092
+									],
+									[
+										9372,
+										9382
+									],
+									[
+										9618,
+										9628
+									],
+									[
+										9903,
+										9913
+									],
+									[
+										10224,
+										10234
+									],
+									[
+										10429,
+										10439
+									],
+									[
+										10459,
+										10469
+									],
+									[
+										10489,
+										10499
+									],
+									[
+										10597,
+										10607
+									],
+									[
+										10627,
+										10637
+									],
+									[
+										10657,
+										10667
+									],
+									[
+										10855,
+										10865
+									],
+									[
+										10998,
+										11008
+									],
+									[
+										11187,
+										11197
+									],
+									[
+										11740,
+										11747
+									],
+									[
+										12029,
+										12036
+									],
+									[
+										12083,
+										12090
+									],
+									[
+										12300,
+										12307
+									],
+									[
+										12555,
+										12562
+									],
+									[
+										12778,
+										12785
+									],
+									[
+										13067,
+										13074
+									],
+									[
+										13135,
+										13142
+									],
+									[
+										13271,
+										13278
+									],
+									[
+										13326,
+										13333
+									],
+									[
+										13478,
+										13485
+									],
+									[
+										13546,
+										13553
+									],
+									[
+										13684,
+										13691
+									],
+									[
+										13742,
+										13749
+									],
+									[
+										13851,
+										13858
+									],
+									[
+										13981,
+										13988
+									],
+									[
+										14040,
+										14047
+									],
+									[
+										14157,
+										14164
+									],
+									[
+										14425,
+										14432
+									],
+									[
+										14482,
+										14489
+									],
+									[
+										14559,
+										14566
+									],
+									[
+										14780,
+										14787
+									],
+									[
+										15150,
+										15157
+									],
+									[
+										15389,
+										15396
+									],
+									[
+										15441,
+										15448
+									],
+									[
+										15663,
+										15670
+									],
+									[
+										15925,
+										15932
+									],
+									[
+										16320,
+										16335
+									],
+									[
+										16550,
+										16565
+									],
+									[
+										16796,
+										16811
+									],
+									[
+										17128,
+										17143
+									],
+									[
+										17443,
+										17458
+									],
+									[
+										17779,
+										17794
+									],
+									[
+										18114,
+										18134
+									],
+									[
+										18292,
+										18312
+									],
+									[
+										18622,
+										18642
+									],
+									[
+										18926,
+										18939
+									],
+									[
+										19196,
+										19209
+									],
+									[
+										19511,
+										19519
+									],
+									[
+										19749,
+										19757
+									],
+									[
+										19806,
+										19814
+									],
+									[
+										20124,
+										20132
+									],
+									[
+										20343,
+										20351
+									],
+									[
+										20513,
+										20521
+									],
+									[
+										20588,
+										20596
+									],
+									[
+										20788,
+										20796
+									],
+									[
+										20977,
+										20985
+									],
+									[
+										21052,
+										21060
+									],
+									[
+										21259,
+										21267
+									],
+									[
+										21576,
+										21584
+									],
+									[
+										21765,
+										21773
+									],
+									[
+										21862,
+										21870
+									],
+									[
+										22003,
+										22011
+									],
+									[
+										22215,
+										22223
+									],
+									[
+										22448,
+										22456
+									],
+									[
+										22685,
+										22693
+									],
+									[
+										22946,
+										22954
+									],
+									[
+										23258,
+										23272
+									],
+									[
+										23366,
+										23380
+									],
+									[
+										23583,
+										23597
+									],
+									[
+										23773,
+										23787
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								23592,
+								23592
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 13,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 20429.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/sjpegi.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3360,
+								3360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2412.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/enc.cc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45592,
+								45606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 37411.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct_test/dct1d_02.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct_test/dct1d_01.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/C/Users/Nick Butts/Google Drive/code/dct_test/dct.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30103,
+								30103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21477.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sjpeg_hls.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sjpeg.cc",
+				"examples\\sjpeg.cc"
+			],
+			[
+				"fdct",
+				"src\\fdct_simple.cc"
+			],
+			[
+				"datalo",
+				"Python\\datalogger.py"
+			],
+			[
+				"usbocmm",
+				"PSoCDesign\\RadarReceiver.cydsn\\src\\UsbComm.c"
+			],
+			[
+				"ray_rp3.sh",
+				"ray\\RaspberryPi\\Python\\application\\ray_rp3.sh"
+			],
+			[
+				"ray",
+				"ray\\RaspberryPi\\Python\\application\\ray_rp3.py"
+			],
+			[
+				"radar.py",
+				"RaspberryPi\\Python\\libraRadar\\Radar.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 493.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
